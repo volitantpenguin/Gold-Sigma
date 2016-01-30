@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44A6D5431C5C556500BF9BFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A6D5421C5C556500BF9BFD /* main.m */; };
+		44A6D5461C5C556500BF9BFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A6D5451C5C556500BF9BFD /* AppDelegate.m */; };
+		44A6D5491C5C556500BF9BFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A6D5481C5C556500BF9BFD /* ViewController.m */; };
+		44A6D54C1C5C556500BF9BFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A6D54A1C5C556500BF9BFD /* Main.storyboard */; };
+		44A6D54E1C5C556500BF9BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A6D54D1C5C556500BF9BFD /* Assets.xcassets */; };
+		44A6D5511C5C556500BF9BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A6D54F1C5C556500BF9BFD /* LaunchScreen.storyboard */; };
+		44A6D55C1C5C556500BF9BFD /* GoldPlusSigmaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A6D55B1C5C556500BF9BFD /* GoldPlusSigmaTests.m */; };
+		44A6D5671C5C556500BF9BFD /* GoldPlusSigmaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A6D5661C5C556500BF9BFD /* GoldPlusSigmaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44A6D5581C5C556500BF9BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44A6D5361C5C556500BF9BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44A6D53D1C5C556500BF9BFD;
+			remoteInfo = GoldPlusSigma;
+		};
+		44A6D5631C5C556500BF9BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44A6D5361C5C556500BF9BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44A6D53D1C5C556500BF9BFD;
+			remoteInfo = GoldPlusSigma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44A6D53E1C5C556500BF9BFD /* GoldPlusSigma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldPlusSigma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A6D5421C5C556500BF9BFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44A6D5441C5C556500BF9BFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44A6D5451C5C556500BF9BFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44A6D5471C5C556500BF9BFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44A6D5481C5C556500BF9BFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44A6D54B1C5C556500BF9BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44A6D54D1C5C556500BF9BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44A6D5501C5C556500BF9BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44A6D5521C5C556500BF9BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A6D5571C5C556500BF9BFD /* GoldPlusSigmaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldPlusSigmaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A6D55B1C5C556500BF9BFD /* GoldPlusSigmaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldPlusSigmaTests.m; sourceTree = "<group>"; };
+		44A6D55D1C5C556500BF9BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A6D5621C5C556500BF9BFD /* GoldPlusSigmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldPlusSigmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A6D5661C5C556500BF9BFD /* GoldPlusSigmaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldPlusSigmaUITests.m; sourceTree = "<group>"; };
+		44A6D5681C5C556500BF9BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44A6D53B1C5C556500BF9BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A6D5541C5C556500BF9BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A6D55F1C5C556500BF9BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44A6D5351C5C556500BF9BFD = {
+			isa = PBXGroup;
+			children = (
+				44A6D5401C5C556500BF9BFD /* GoldPlusSigma */,
+				44A6D55A1C5C556500BF9BFD /* GoldPlusSigmaTests */,
+				44A6D5651C5C556500BF9BFD /* GoldPlusSigmaUITests */,
+				44A6D53F1C5C556500BF9BFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44A6D53F1C5C556500BF9BFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44A6D53E1C5C556500BF9BFD /* GoldPlusSigma.app */,
+				44A6D5571C5C556500BF9BFD /* GoldPlusSigmaTests.xctest */,
+				44A6D5621C5C556500BF9BFD /* GoldPlusSigmaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44A6D5401C5C556500BF9BFD /* GoldPlusSigma */ = {
+			isa = PBXGroup;
+			children = (
+				44A6D5441C5C556500BF9BFD /* AppDelegate.h */,
+				44A6D5451C5C556500BF9BFD /* AppDelegate.m */,
+				44A6D5471C5C556500BF9BFD /* ViewController.h */,
+				44A6D5481C5C556500BF9BFD /* ViewController.m */,
+				44A6D54A1C5C556500BF9BFD /* Main.storyboard */,
+				44A6D54D1C5C556500BF9BFD /* Assets.xcassets */,
+				44A6D54F1C5C556500BF9BFD /* LaunchScreen.storyboard */,
+				44A6D5521C5C556500BF9BFD /* Info.plist */,
+				44A6D5411C5C556500BF9BFD /* Supporting Files */,
+			);
+			path = GoldPlusSigma;
+			sourceTree = "<group>";
+		};
+		44A6D5411C5C556500BF9BFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44A6D5421C5C556500BF9BFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44A6D55A1C5C556500BF9BFD /* GoldPlusSigmaTests */ = {
+			isa = PBXGroup;
+			children = (
+				44A6D55B1C5C556500BF9BFD /* GoldPlusSigmaTests.m */,
+				44A6D55D1C5C556500BF9BFD /* Info.plist */,
+			);
+			path = GoldPlusSigmaTests;
+			sourceTree = "<group>";
+		};
+		44A6D5651C5C556500BF9BFD /* GoldPlusSigmaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44A6D5661C5C556500BF9BFD /* GoldPlusSigmaUITests.m */,
+				44A6D5681C5C556500BF9BFD /* Info.plist */,
+			);
+			path = GoldPlusSigmaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44A6D53D1C5C556500BF9BFD /* GoldPlusSigma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A6D56B1C5C556500BF9BFD /* Build configuration list for PBXNativeTarget "GoldPlusSigma" */;
+			buildPhases = (
+				44A6D53A1C5C556500BF9BFD /* Sources */,
+				44A6D53B1C5C556500BF9BFD /* Frameworks */,
+				44A6D53C1C5C556500BF9BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoldPlusSigma;
+			productName = GoldPlusSigma;
+			productReference = 44A6D53E1C5C556500BF9BFD /* GoldPlusSigma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44A6D5561C5C556500BF9BFD /* GoldPlusSigmaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A6D56E1C5C556500BF9BFD /* Build configuration list for PBXNativeTarget "GoldPlusSigmaTests" */;
+			buildPhases = (
+				44A6D5531C5C556500BF9BFD /* Sources */,
+				44A6D5541C5C556500BF9BFD /* Frameworks */,
+				44A6D5551C5C556500BF9BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44A6D5591C5C556500BF9BFD /* PBXTargetDependency */,
+			);
+			name = GoldPlusSigmaTests;
+			productName = GoldPlusSigmaTests;
+			productReference = 44A6D5571C5C556500BF9BFD /* GoldPlusSigmaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44A6D5611C5C556500BF9BFD /* GoldPlusSigmaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A6D5711C5C556500BF9BFD /* Build configuration list for PBXNativeTarget "GoldPlusSigmaUITests" */;
+			buildPhases = (
+				44A6D55E1C5C556500BF9BFD /* Sources */,
+				44A6D55F1C5C556500BF9BFD /* Frameworks */,
+				44A6D5601C5C556500BF9BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44A6D5641C5C556500BF9BFD /* PBXTargetDependency */,
+			);
+			name = GoldPlusSigmaUITests;
+			productName = GoldPlusSigmaUITests;
+			productReference = 44A6D5621C5C556500BF9BFD /* GoldPlusSigmaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44A6D5361C5C556500BF9BFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hyuntae Byun";
+				TargetAttributes = {
+					44A6D53D1C5C556500BF9BFD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BBSJKN52A9;
+					};
+					44A6D5561C5C556500BF9BFD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BBSJKN52A9;
+						TestTargetID = 44A6D53D1C5C556500BF9BFD;
+					};
+					44A6D5611C5C556500BF9BFD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BBSJKN52A9;
+						TestTargetID = 44A6D53D1C5C556500BF9BFD;
+					};
+				};
+			};
+			buildConfigurationList = 44A6D5391C5C556500BF9BFD /* Build configuration list for PBXProject "GoldPlusSigma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44A6D5351C5C556500BF9BFD;
+			productRefGroup = 44A6D53F1C5C556500BF9BFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44A6D53D1C5C556500BF9BFD /* GoldPlusSigma */,
+				44A6D5561C5C556500BF9BFD /* GoldPlusSigmaTests */,
+				44A6D5611C5C556500BF9BFD /* GoldPlusSigmaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44A6D53C1C5C556500BF9BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A6D5511C5C556500BF9BFD /* LaunchScreen.storyboard in Resources */,
+				44A6D54E1C5C556500BF9BFD /* Assets.xcassets in Resources */,
+				44A6D54C1C5C556500BF9BFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A6D5551C5C556500BF9BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A6D5601C5C556500BF9BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44A6D53A1C5C556500BF9BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A6D5491C5C556500BF9BFD /* ViewController.m in Sources */,
+				44A6D5461C5C556500BF9BFD /* AppDelegate.m in Sources */,
+				44A6D5431C5C556500BF9BFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A6D5531C5C556500BF9BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A6D55C1C5C556500BF9BFD /* GoldPlusSigmaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A6D55E1C5C556500BF9BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A6D5671C5C556500BF9BFD /* GoldPlusSigmaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44A6D5591C5C556500BF9BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44A6D53D1C5C556500BF9BFD /* GoldPlusSigma */;
+			targetProxy = 44A6D5581C5C556500BF9BFD /* PBXContainerItemProxy */;
+		};
+		44A6D5641C5C556500BF9BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44A6D53D1C5C556500BF9BFD /* GoldPlusSigma */;
+			targetProxy = 44A6D5631C5C556500BF9BFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44A6D54A1C5C556500BF9BFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44A6D54B1C5C556500BF9BFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44A6D54F1C5C556500BF9BFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44A6D5501C5C556500BF9BFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44A6D5691C5C556500BF9BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44A6D56A1C5C556500BF9BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44A6D56C1C5C556500BF9BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoldPlusSigma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GoldPlusSigma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44A6D56D1C5C556500BF9BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoldPlusSigma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GoldPlusSigma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		44A6D56F1C5C556500BF9BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoldPlusSigmaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GoldPlusSigmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldPlusSigma.app/GoldPlusSigma";
+			};
+			name = Debug;
+		};
+		44A6D5701C5C556500BF9BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoldPlusSigmaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GoldPlusSigmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldPlusSigma.app/GoldPlusSigma";
+			};
+			name = Release;
+		};
+		44A6D5721C5C556500BF9BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoldPlusSigmaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GoldPlusSigmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoldPlusSigma;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		44A6D5731C5C556500BF9BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoldPlusSigmaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GoldPlusSigmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoldPlusSigma;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44A6D5391C5C556500BF9BFD /* Build configuration list for PBXProject "GoldPlusSigma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A6D5691C5C556500BF9BFD /* Debug */,
+				44A6D56A1C5C556500BF9BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A6D56B1C5C556500BF9BFD /* Build configuration list for PBXNativeTarget "GoldPlusSigma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A6D56C1C5C556500BF9BFD /* Debug */,
+				44A6D56D1C5C556500BF9BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44A6D56E1C5C556500BF9BFD /* Build configuration list for PBXNativeTarget "GoldPlusSigmaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A6D56F1C5C556500BF9BFD /* Debug */,
+				44A6D5701C5C556500BF9BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44A6D5711C5C556500BF9BFD /* Build configuration list for PBXNativeTarget "GoldPlusSigmaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A6D5721C5C556500BF9BFD /* Debug */,
+				44A6D5731C5C556500BF9BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44A6D5361C5C556500BF9BFD /* Project object */;
+}
