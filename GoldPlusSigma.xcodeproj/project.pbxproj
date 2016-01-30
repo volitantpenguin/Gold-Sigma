@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4413C2521C5D376B003E6B8A /* FontTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4413C2511C5D376B003E6B8A /* FontTestController.m */; };
 		44A6D5431C5C556500BF9BFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A6D5421C5C556500BF9BFD /* main.m */; };
 		44A6D5461C5C556500BF9BFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A6D5451C5C556500BF9BFD /* AppDelegate.m */; };
 		44A6D5491C5C556500BF9BFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A6D5481C5C556500BF9BFD /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4413C2501C5D376B003E6B8A /* FontTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontTestController.h; sourceTree = "<group>"; };
+		4413C2511C5D376B003E6B8A /* FontTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontTestController.m; sourceTree = "<group>"; };
 		44A6D53E1C5C556500BF9BFD /* GoldPlusSigma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldPlusSigma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A6D5421C5C556500BF9BFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44A6D5441C5C556500BF9BFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				44A6D5451C5C556500BF9BFD /* AppDelegate.m */,
 				44A6D5471C5C556500BF9BFD /* ViewController.h */,
 				44A6D5481C5C556500BF9BFD /* ViewController.m */,
+				4413C2501C5D376B003E6B8A /* FontTestController.h */,
+				4413C2511C5D376B003E6B8A /* FontTestController.m */,
 				44A6D54A1C5C556500BF9BFD /* Main.storyboard */,
 				44A6D54D1C5C556500BF9BFD /* Assets.xcassets */,
 				44A6D54F1C5C556500BF9BFD /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				44A6D5491C5C556500BF9BFD /* ViewController.m in Sources */,
 				44A6D5461C5C556500BF9BFD /* AppDelegate.m in Sources */,
+				4413C2521C5D376B003E6B8A /* FontTestController.m in Sources */,
 				44A6D5431C5C556500BF9BFD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +505,7 @@
 				44A6D56D1C5C556500BF9BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44A6D56E1C5C556500BF9BFD /* Build configuration list for PBXNativeTarget "GoldPlusSigmaTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				44A6D5701C5C556500BF9BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44A6D5711C5C556500BF9BFD /* Build configuration list for PBXNativeTarget "GoldPlusSigmaUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				44A6D5731C5C556500BF9BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
