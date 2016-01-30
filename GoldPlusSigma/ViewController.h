@@ -12,4 +12,10 @@
 
 @property (weak, nonatomic) IBOutlet UIScrollView *pagedScrollView;
 
+@property (weak, nonatomic) IBOutlet UILabel *testLabel;
+
+@property (weak, nonatomic) IBOutlet UIButton *testButton;
+
+@property (strong, nonatomic) GeneticAlgorithm *ga;
+
 @end

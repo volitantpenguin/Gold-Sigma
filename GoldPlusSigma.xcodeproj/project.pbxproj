@@ -15,6 +15,7 @@
 		44A6D5511C5C556500BF9BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A6D54F1C5C556500BF9BFD /* LaunchScreen.storyboard */; };
 		44A6D55C1C5C556500BF9BFD /* GoldPlusSigmaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A6D55B1C5C556500BF9BFD /* GoldPlusSigmaTests.m */; };
 		44A6D5671C5C556500BF9BFD /* GoldPlusSigmaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A6D5661C5C556500BF9BFD /* GoldPlusSigmaUITests.m */; };
+		ECE116D91C5CA381003DC3B6 /* GeneticAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE116D81C5CA381003DC3B6 /* GeneticAlgorithm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		44A6D5621C5C556500BF9BFD /* GoldPlusSigmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldPlusSigmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A6D5661C5C556500BF9BFD /* GoldPlusSigmaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldPlusSigmaUITests.m; sourceTree = "<group>"; };
 		44A6D5681C5C556500BF9BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE116D71C5CA381003DC3B6 /* GeneticAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneticAlgorithm.h; sourceTree = "<group>"; };
+		ECE116D81C5CA381003DC3B6 /* GeneticAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneticAlgorithm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				44A6D5441C5C556500BF9BFD /* AppDelegate.h */,
 				44A6D5451C5C556500BF9BFD /* AppDelegate.m */,
 				44A6D5471C5C556500BF9BFD /* ViewController.h */,
+				ECE116D71C5CA381003DC3B6 /* GeneticAlgorithm.h */,
+				ECE116D81C5CA381003DC3B6 /* GeneticAlgorithm.m */,
 				44A6D5481C5C556500BF9BFD /* ViewController.m */,
 				44A6D54A1C5C556500BF9BFD /* Main.storyboard */,
 				44A6D54D1C5C556500BF9BFD /* Assets.xcassets */,
@@ -275,6 +280,7 @@
 			files = (
 				44A6D5491C5C556500BF9BFD /* ViewController.m in Sources */,
 				44A6D5461C5C556500BF9BFD /* AppDelegate.m in Sources */,
+				ECE116D91C5CA381003DC3B6 /* GeneticAlgorithm.m in Sources */,
 				44A6D5431C5C556500BF9BFD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +505,7 @@
 				44A6D56D1C5C556500BF9BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44A6D56E1C5C556500BF9BFD /* Build configuration list for PBXNativeTarget "GoldPlusSigmaTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				44A6D5701C5C556500BF9BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44A6D5711C5C556500BF9BFD /* Build configuration list for PBXNativeTarget "GoldPlusSigmaUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				44A6D5731C5C556500BF9BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
