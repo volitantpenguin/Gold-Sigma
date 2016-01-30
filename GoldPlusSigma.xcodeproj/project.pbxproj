@@ -499,6 +499,7 @@
 				44A6D56D1C5C556500BF9BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44A6D56E1C5C556500BF9BFD /* Build configuration list for PBXNativeTarget "GoldPlusSigmaTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +508,7 @@
 				44A6D5701C5C556500BF9BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44A6D5711C5C556500BF9BFD /* Build configuration list for PBXNativeTarget "GoldPlusSigmaUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +517,7 @@
 				44A6D5731C5C556500BF9BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
