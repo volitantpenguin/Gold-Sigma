@@ -34,10 +34,10 @@
     [self.pagedScrollView addSubview:testView2];
     
     //sets up test label with test "Hello!" Also demos the idea of setting fonts with sizes
-    UILabel *testLabel1 = [[UILabel alloc] initWithFrame:CGRectMake(20, 20, 400, 500)];
+    UILabel *testLabel1 = [[UILabel alloc] initWithFrame:CGRectMake(20, 20, fullScreenRect.size.width, 500)];
     testLabel1.numberOfLines = 0;
     testLabel1.text = @"Hello!!!!";
-    [testLabel1 setFont:[UIFont fontWithName:@"Helvetica Nueue" size:29.0]];
+    [testLabel1 setFont:[UIFont fontWithName:@"HelveticaNeue" size:29.0]];
     [testLabel1 sizeToFit];
     
     //sets up general animation system
