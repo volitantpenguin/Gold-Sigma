@@ -6,6 +6,7 @@
 //  Copyright © 2016 Hyuntae Byun. All rights reserved.
 //
 
+#import "GeneticAlgorithm.h"
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController <UIScrollViewDelegate>
@@ -17,5 +18,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *testButton;
 
 @property (strong, nonatomic) GeneticAlgorithm *ga;
+
+@property int generation;
 
 @end

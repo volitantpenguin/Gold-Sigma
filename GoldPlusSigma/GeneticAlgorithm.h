@@ -17,5 +17,7 @@
 @property (strong, nonatomic) NSString *letters;
 
 -(void)initializePopulation;
+-(NSMutableArray *)calculatePopulationFitness;
+-(NSMutableString *)crossString:(NSMutableString *)str1 withString:(NSMutableString *)str2;
 
 @end
