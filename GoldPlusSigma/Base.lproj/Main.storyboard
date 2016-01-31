@@ -5,6 +5,40 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
+        <!--Font Test Controller-->
+        <scene sceneID="c9H-WL-WGx">
+            <objects>
+                <viewController id="Qlv-hT-zX5" customClass="FontTestController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rYf-fT-2V8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Elm-0Q-NBU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mTi-te-meb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ebt-Mc-Oqa">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ebt-Mc-Oqa" firstAttribute="bottom" secondItem="Elm-0Q-NBU" secondAttribute="top" id="2Ey-mX-ha4"/>
+                            <constraint firstAttribute="trailing" secondItem="Ebt-Mc-Oqa" secondAttribute="trailing" id="2xw-yz-ke4"/>
+                            <constraint firstItem="Ebt-Mc-Oqa" firstAttribute="leading" secondItem="mTi-te-meb" secondAttribute="leading" id="aPf-zv-P3x"/>
+                            <constraint firstItem="Ebt-Mc-Oqa" firstAttribute="top" secondItem="rYf-fT-2V8" secondAttribute="bottom" id="zlk-VM-kbP"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="selectionView" destination="Ebt-Mc-Oqa" id="jgh-JI-SRF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f7O-dH-Z3H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-118" y="342"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
